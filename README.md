@@ -2,14 +2,13 @@
 
 ## Project Summary
 
-This project presents a robust and asynchronous solution for gathering real-time weather data for different cities using the `browser-use` agent framework. It extracts and parses weather information from an AI agent's execution history, and the final data is then filtered based on a temperature threshold.
+This project presents a robust and asynchronous solution for gathering real-time weather data for different cities using the [`browser-use`](https://github.com/browser-use/browser-use/tree/main) agent framework. It extracts and parses weather information from an AI agent's execution history, and the final data is then filtered based on a temperature threshold.
 
 ---
 
 ## ⚙️ Setup and Installation
 
-This project uses **`uv`** for dependency management and ensures the correct installation of the [`browser-use`] (https://github.com/browser-use/browser-use/tree/main) library
- and its required browser environment.
+This project uses **`uv`** for dependency management and ensures the correct installation of the `browser-use` library and its required browser environment.
 
 ### 1. Initialize and Install Dependencies
 
@@ -140,4 +139,3 @@ This utility solves the main problem: **extracting clean JSON from noisy agent l
 
 Cities with temp above 10°C: ['Pune']
 ```
-
